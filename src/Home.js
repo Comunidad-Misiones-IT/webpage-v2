@@ -23,10 +23,7 @@ class Home extends Component {
                 <div class="px-4 py-4 md:px-10">
                   <h1 class="font-bold text-lg">Quienes somos</h1>
                   <p class="py-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi quas sapiente voluptate earum natus facilis dolor
-                    deserunt dolorum tempora obcaecati consequatur rem, vel
-                    distinctio perferendis tempore nemo sequi eos accusantium.
+                    Somos una comunidad convencida de que Misiones tiene talento valioso para la industria IT, y lo queremos potenciar. Si querés saber qué hay detrás de esta página, manijear juegos o compartir experiencias.
                   </p>
                 </div>
               </div>
@@ -42,7 +39,7 @@ class Home extends Component {
                 </div>
                 <div class="px-4 py-4 md:px-10">
                   <h1 class="font-bold text-lg">
-                    Curso sobre Inteligencia Artificial
+                    MEET: ciclo de entrevistas
                   </h1>
                   <p class="py-4">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
