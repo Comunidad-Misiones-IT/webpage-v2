@@ -12,7 +12,7 @@ export default function Header() {
           <a className="flex title-font items-center text-gray-900" href="/">
             <img
               src={logo}
-              className="w-16 h-16 text-white p-2"
+              className="w-16 h-18 text-white p-2"
               alt="Comunidad MIT"
             />
           </a>

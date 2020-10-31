@@ -13,17 +13,16 @@ class Eventos extends Component {
         </div>
         <div class="mt-4 md:mt-0 md:ml-6">
           <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">
-            Miércoles 20 de noviembre
+            Miércoles 20 de noviembre / 19:30hs
           </div>
           <a
             href="#"
             class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline"
           >
-            Charla sobre Figma
+            Charla de introducción a Figma
           </a>
           <p class="mt-2 text-gray-600">
-            Se viene charla sobre introductoria sobre Figma. Para saber más
-            escribinos a hola@mit.ar
+          Ulises nos estará introduciendo en esta fantástica herramienta de diseño colaborativa. Para saber más escribinos a hola@mit.ar
           </p>
         </div>
       </div>
