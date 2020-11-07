@@ -1,4 +1,4 @@
-import { Link, Route, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "./mit.png";
 
 export default function Header() {
@@ -40,6 +40,7 @@ export default function Header() {
           </Link>
           <a
             target="_blank"
+            rel="noreferrer"
             className="btn btn-secondary ml-3 text-white"
             href="https://discord.gg/DaYKCDt"
           >

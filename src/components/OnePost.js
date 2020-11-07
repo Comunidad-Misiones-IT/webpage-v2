@@ -35,22 +35,19 @@ export default function OnePost() {
       .catch(console.error);
   }, [slug]);
 
-  if (!postData) return <div>Loading...</div>;
+  if (!postData) return <div>Cargando...</div>;
 
   return (
     <div>
-      <div>
-        <h2>{postData.title}</h2>
+      <div className="p-2">
+        <strong>{postData.title}</strong>
         <div>
-          <img
-            src={urlFor(postData.authorImage).width(100).url()}
-            alt="Author is Kap"
-          />
+          <img src={urlFor(postData?.authorImage).width(100).url()} />
           <h4>{postData.name}</h4>
         </div>
       </div>
       <img src={urlFor(postData.mainImage).width(200).url()} alt="" />
-      <div>
+      <div className="p-2">
         <BlockContent
           blocks={postData.body}
           projectId={sanityClient.clientConfig.projectId}
