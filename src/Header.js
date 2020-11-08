@@ -3,10 +3,10 @@ import logo from "./mit.png";
 
 export default function Header() {
   return (
-    <header className="shadow-md w-full flex flex-col fixed md:relative z-50 bg-purple-700 ">
+    <header className="shadow-md w-full flex flex-col fixed md:relative z-50 bg-mit">
       <nav
         id="site-menu"
-        className="container mx-auto flex flex-col md:flex-row w-full justify-between items-center px-4 md:px-6 bg-purple-700 shadow md:shadow-none"
+        className="container mx-auto flex flex-col md:flex-row w-full justify-between items-center px-4 md:px-6 bg-mit shadow md:shadow-none"
       >
         <div className="w-full md:w-auto self-start md:self-center flex flex-row md:flex-none flex-no-wrap justify-between items-center">
           <a className="flex title-font items-center text-gray-900" href="/">

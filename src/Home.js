@@ -6,7 +6,7 @@ class Home extends Component {
       <section>
         <div className="container mx-auto">
           <div>
-            <h1 className="text-2xl font-black text-purple-600 pb-2 px-6 md:px-12">
+            <h1 className="text-2xl font-black text-mit pb-2 px-6 md:px-12">
               Comunidad MIT
             </h1>
           </div>
