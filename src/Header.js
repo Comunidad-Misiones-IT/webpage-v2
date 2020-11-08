@@ -4,7 +4,7 @@ import logo from "./mit2.png";
 export default function Header() {
   return (
 <header className="text-gray-700 body-font bg-mit">
-<div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+<div class="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center">
     <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
     <img
       src={logo}
@@ -30,7 +30,7 @@ export default function Header() {
       target="_blank"
       rel="noreferrer"
       className="btn btn-secondary ml-3 text-white"
-      href="https://discord.gg/DaYKCDt"
+      href="https://discord.com/invite/6Tkv8pn"
     >
       Sumate a Discord
     </a>
