@@ -1,57 +1,21 @@
 import React, { Component } from "react";
+import logo from "./mit.png";
 
 class Home extends Component {
   render() {
     return (
-      <section>
-        <div className="container mx-auto">
-          <div>
-            <h1 className="text-2xl font-black text-mit pb-2 px-6 md:px-12">
-              Comunidad MIT
-            </h1>
-          </div>
-          <div className="flex flex-wrap px-4">
-            <div className="w-full lg:w-1/2 md:px-4 lg:px-6 py-5">
-              <div className="bg-white hover:shadow-xl">
-                <div className="">
-                  <img
-                    src="https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                    alt=""
-                    className="h-56 w-full border-white border-8 hover:opacity-25"
-                  />
-                </div>
-                <div className="px-4 py-4 md:px-10">
-                  <h1 className="font-bold text-lg">Quienes somos</h1>
-                  <p className="py-4">
-                    Somos una comunidad convencida de que Misiones tiene talento
+      <section className="text-gray-700 body-font">
+        <div className="container mx-auto flex px-5 py-10 items-center justify-center flex-col">
+          <img className="h-40 w-40 mb-10 object-cover object-center rounded" alt="robot" src={logo} />
+          <div className="text-center lg:w-2/3 w-full">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Comunidad Misiones IT</h1>
+            <p className="mb-8 leading-relaxed">Somos una comunidad convencida de que Misiones tiene talento
                     valioso para la industria IT, y lo queremos potenciar. Si
                     querés saber qué hay detrás de esta página, manijear juegos
-                    o compartir experiencias.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="w-full lg:w-1/2 md:px-4 lg:px-6 py-5">
-              <div className="bg-white hover:shadow-xl">
-                <div className="">
-                  <img
-                    src="https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                    alt=""
-                    className="h-56 w-full border-white border-8 hover:opacity-25"
-                  />
-                </div>
-                <div className="px-4 py-4 md:px-10">
-                  <h1 className="font-bold text-lg">
-                    MEET: ciclo de entrevistas
-                  </h1>
-                  <p className="py-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi quas sapiente voluptate earum natus facilis dolor
-                    deserunt dolorum tempora obcaecati consequatur rem, vel
-                    distinctio perferendis tempore nemo sequi eos accusantium.
-                  </p>
-                </div>
-              </div>
+                    o compartir experiencias.</p>
+            <div className="flex justify-center">
+              <button className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">Button</button>
+              <button className="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Button</button>
             </div>
           </div>
         </div>
