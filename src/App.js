@@ -9,7 +9,7 @@ import OnePost from "./components/OnePost";
 
 function App() {
   return (
-    <div className="App bg-gray-100 container mx-auto min-h-screen">
+    <div className="App">
       <Header />
       <Switch>
         <Route exact path="/" exact component={Home} />
