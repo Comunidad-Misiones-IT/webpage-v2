@@ -4,6 +4,7 @@
 
 :root {
   --mit-purple: #633786;
+  --mit-purple-dark: #76489a;
 }
 
 body {
@@ -23,4 +24,11 @@ code {
 
 .text-mit {
   color: var(--mit-purple);
+}
+
+div .card-mit:nth-child(even) {
+  background-color: var(--mit-purple);
+}
+div .card-mit:nth-child(odd) {
+  background-color: var(--mit-purple-dark);
 }
