@@ -45,6 +45,7 @@ export default function Header() {
       <Link
         to="/live"
         className="w-full md:w-auto text-center rounded px-4 py-2 text-white bg-red-600"
+        hidden
       >
         <b>En vivo</b>
       </Link>
