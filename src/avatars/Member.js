@@ -1,14 +1,14 @@
-export default function Nata() {
+export default function Member() {
   return (
     <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <img
             className="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-            src="https://avatars2.githubusercontent.com/u/59546935?s=400&u=9a9b84d1541a3ae7c30fcdbaebf3fdf8db50b87a&v=4"
-            alt="Avatar Nata"
+            src="#"
+            alt="Avatar"
           />
           <div class="flex-grow">
-            <h2 class="title-font font-medium">Nataya Soledad Flores</h2>
+            <h2 class="title-font font-medium">Fulano</h2>
             <p class="text-gray-600">Software Engineer</p>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 sm:justify-start">
               <a class="text-gray-500">

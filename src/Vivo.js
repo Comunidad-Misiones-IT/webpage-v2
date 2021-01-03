@@ -1,23 +1,12 @@
 import React, { Component } from "react";
-
 class Vivo extends Component {
   render() {
     return (
-      <section className="text-gray-700 body-font">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">En vivo</h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              sdahsdsdasjhdgajsgdsj
-            </p>
-          </div>
-          <div className="flex flex-wrap -m-2">
-            <p>Hello World</p>
-          </div>
-        </div>
+      <section className="text-gray-800 body-font text-center p-6">
+        <h1>En vivo</h1>
+        <iframe height="560" width="100%" src="https://player.twitch.tv/?channel=comunidadmit&parent=comit.ar" scrolling="no" frameborder="0" allowfullscreen></iframe>
       </section>
     );
   }
 }
-
 export default Vivo;
