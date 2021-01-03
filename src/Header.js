@@ -3,8 +3,8 @@ import logo from "./mit2.png";
 
 export default function Header() {
   return (
-<header className="text-gray-600 body-font">
-  <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center bg-mit">
+<header className="text-gray-600 body-font bg-mit">
+  <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <Link className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" to="/">
     <img
       src={logo}
@@ -18,35 +18,35 @@ export default function Header() {
     >
     <Link
       to="/"
-      className="w-full md:w-auto text-center px-4 py-2 text-white hover:text-gray-800"
+      className="w-full md:w-auto text-center px-4 py-2 text-white "
     >
       Inicio
     </Link>
     <Link
-      to="/acercade"
-      className="w-full md:w-auto text-center px-4 py-2 text-white hover:text-gray-800"
+      to="/nosotros"
+      className="w-full md:w-auto text-center px-4 py-2 text-white "
       hidden
     >
       Nosotros
     </Link>
     <Link
       to="/eventos"
-      className="w-full md:w-auto text-center px-4 py-2 text-white hover:text-gray-800"
+      className="w-full md:w-auto text-center px-4 py-2 text-white "
     >
       Eventos
     </Link>
     <Link
-      to="/links"
-      className="w-full md:w-auto text-center px-4 py-2 text-white hover:text-gray-800"
+      to="/comunidad"
+      className="w-full md:w-auto text-center px-4 py-2 text-white "
     >
-      Contacto
+      Comunidad
     </Link>
     </nav>
       <Link
-        to="/vivo"
-        className="w-full md:w-auto text-center px-4 py-2 text-white hover:text-gray-800"
+        to="/live"
+        className="w-full md:w-auto text-center rounded px-4 py-2 text-white bg-red-600"
       >
-        En vivo
+        <b>En vivo</b>
       </Link>
   </div>
 </header>

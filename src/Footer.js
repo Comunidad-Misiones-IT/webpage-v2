@@ -13,7 +13,7 @@ export default function Footer() {
     <span class="ml-3 text-xl">Comunidad Misiones IT</span>
   </Link>
   <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-    © 2021 - All rigth reserved
+    © 2021 - Todos los derechos reservados
   </p>
   <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
     <a href="https://twitter.com/ComunidadMIT" class="ml-3 text-gray-500">
