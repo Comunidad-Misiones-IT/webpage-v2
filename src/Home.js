@@ -11,7 +11,7 @@ class Home extends Component {
           </div>
           <div className="w-full md:w-2/3 text-center md:text-left md:py-24 md:pr-12">
             <h2>Comunidad Misiones IT</h2>
-            <h6>Somos Misiones IT, una comunidad de desarrolladores y desarrolladoras de la provincia de Misiones (Argentina)</h6>
+            <h5>Somos Misiones IT, una comunidad de desarrolladores y desarrolladoras de la provincia de Misiones (Argentina)</h5>
           </div>
         </div>
         <div className="container px-5 py-12 mx-auto">
