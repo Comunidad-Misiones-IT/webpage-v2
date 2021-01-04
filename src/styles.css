@@ -1,10 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
-  --mit-purple: #633786;
-  --mit-purple-dark: #76489a;
+  --mit-purple: #76489a;
+  --mit-purple-dark: #633786;
+  --grey-text: #1D1F23;
+}
+
+*, h1, h2, h6 {
+  color: var(--grey-text);
 }
 
 body {
@@ -14,6 +15,25 @@ body {
 h1 {
   font-family: 'Bebas Neue', cursive;
   font-size: 2.5rem;
+}
+
+.home-banner {
+  background-color: var(--grey-text);
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 7px;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  color: var(--mit-purple);
+  letter-spacing: 1px;
 }
 
 code {
@@ -27,6 +47,14 @@ code {
 
 .text-mit {
   color: var(--mit-purple);
+}
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 div .card-mit:nth-child(even) {

@@ -1,4 +1,4 @@
-import logo from "./mit.png";
+import logo from "../assets/mit.png";
 import { Link } from "react-router-dom";
 export default function Footer() {
   return (
