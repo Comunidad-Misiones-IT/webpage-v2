@@ -1,16 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
-  --mit-purple: #633786;
-  --mit-purple-dark: #76489a;
+  --mit-purple: #76489a;
+  --mit-purple-dark: #633786;
   --grey-text: #1D1F23;
+}
+
+*, h1, h2, h6 {
+  color: var(--grey-text);
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
-  color: var(--grey-text);
 }
 
 h1 {
@@ -22,7 +21,7 @@ h1 {
   background-color: var(--grey-text);
 }
 
-h2 {
+h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.4rem;
   font-weight: bold;

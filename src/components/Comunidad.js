@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import BannerDiscord from "./BannerDiscord.png";
+import BannerDiscord from "../assets/BannerDiscord.png";
 class Comunidad extends Component {
   render() {
     return (

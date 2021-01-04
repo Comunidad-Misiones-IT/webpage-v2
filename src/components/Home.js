@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Bot from "./bot.png";
+import Bot from "../assets/bot.png";
 class Home extends Component {
   render() {
     return (
@@ -10,7 +10,7 @@ class Home extends Component {
             <img className="h-64 w-full object-contain vertical-align" alt="Home banner" src={Bot} />
           </div>
           <div className="w-full md:w-2/3 text-center md:text-left md:py-24 md:pr-12">
-            <h2>Comunidad Misiones IT</h2>
+            <h3>Comunidad Misiones IT</h3>
             <h5>Somos Misiones IT, una comunidad de desarrolladores y desarrolladoras de la provincia de Misiones (Argentina)</h5>
           </div>
         </div>
@@ -21,7 +21,7 @@ class Home extends Component {
             <img src="https://img.icons8.com/cotton/64/000000/planner.png"/>
             </div>
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+              <h2 className="text-lg title-font font-medium mb-2">
                 Charlas y talleres
               </h2>
               <p className="leading-relaxed text-base">
@@ -36,7 +36,7 @@ class Home extends Component {
           </div>
           <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+              <h2 className="text-lg title-font font-medium mb-2">
                 Proyectos
               </h2>
               <p className="leading-relaxed text-base">
@@ -57,7 +57,7 @@ class Home extends Component {
             <img src="https://img.icons8.com/cotton/64/000000/controller--v3.png"/>
             </div>
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-2">Juegos</h2>
+              <h2 className="text-lg title-font font-medium mb-2">Juegos</h2>
               <p className="leading-relaxed text-base">
                 Jugamos juegos para pasar el rato ¿Sos gamer? ¿Streamer? ¿Gamer dev? Vení a compartir con nosotros.
               </p>

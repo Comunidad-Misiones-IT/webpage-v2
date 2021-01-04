@@ -3,16 +3,13 @@ import { useParams } from "react-router-dom";
 import sanityClient from "../client.js";
 import BlockContent from "@sanity/block-content-to-react";
 import imageUrlBuilder from "@sanity/image-url";
-
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
   return builder.image(source);
 }
-
 export default function OnePost() {
   const [postData, setPostData] = useState(null);
   const { slug } = useParams();
-
   useEffect(() => {
     sanityClient
       .fetch(
@@ -35,15 +32,13 @@ export default function OnePost() {
       .then((data) => setPostData(data[0]))
       .catch(console.error);
   }, [slug]);
-
   if (!postData) return <div>Cargando...</div>;
-
   return (
       <div className="text-gray-800 body-font text-center p-6">
-        <h1>Eventos próximos</h1>
-          <h6 className="leading-relaxed">
-            Enterate de lo que se viene y reviví los eventos pasados.
-          </h6>
+      <h1>Eventos próximos</h1>
+        <h6 className="leading-relaxed">
+          Enterate de lo que se viene y reviví los eventos pasados.
+        </h6>
       <div className="border-2 flex flex-wrap m-4 border-gray-200 rounded-lg overflow-hidden">
         <div className="md:w-1/2 w-full">
           <img className="h-25 w-25 object-center" src={urlFor(postData.mainImage).url()} alt="blog" />
