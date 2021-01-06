@@ -65,7 +65,7 @@ class Comunidad extends Component {
             </a>
           </div>
 
-          <div class="lg:w-1/3 p-4">
+          <div class="lg:w-1/3 w-1/2 p-4">
           <a href="https://open.spotify.com/user/5bgl2oo5nvp4is4ihv6u4umet">
             <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
             <img src="https://img.icons8.com/color/96/000000/spotify.png"/>
