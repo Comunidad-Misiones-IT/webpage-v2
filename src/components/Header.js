@@ -40,6 +40,12 @@ export default function Header() {
             >
               Comunidad
             </Link>
+            <Link
+              to="/voluntariado"
+              className="w-full md:w-auto text-center px-4 py-2 text-white "
+            >
+              Ayudá a una ONG
+            </Link>
             </nav>
               <Link
                 to="/live"

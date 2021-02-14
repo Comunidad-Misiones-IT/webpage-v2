@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Vivo from "./components/Vivo";
 import Comunidad from "./components/Comunidad";
 import About from "./components/About";
+import Project from "./components/Projects";
 import AllPosts from "./components/AllPosts";
 import OnePost from "./components/OnePost";
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/eventos/:slug" component={OnePost} />
         <Route path="/nosotros" exact component={About} />
         <Route path="/live" exact component={Vivo} />
+        <Route path="/voluntariado" exact component={Project} />
         <Route path="/comunidad" exact component={Comunidad} />
       </Switch>
       <Footer />
