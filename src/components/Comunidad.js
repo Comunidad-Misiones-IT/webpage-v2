@@ -9,7 +9,7 @@ class Comunidad extends Component {
           Siguenos en las redes sociales, hagamos comunidad...
         </h6>
         <div class="rounded my-6 h-64 overflow-hidden">
-          <a href="https://discord.com/invite/X3UP9Bj">
+          <a href="https://discord.gg/g52GpqRKUv">
             <img alt="Home banner" class="object-cover object-center h-full w-full" src={BannerDiscord} />
           </a>
         </div>
