@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.2405e69d.chunk.css",
-    "main.js": "/static/js/main.3ab04f3c.chunk.js",
-    "main.js.map": "/static/js/main.3ab04f3c.chunk.js.map",
+    "main.css": "/static/css/main.50243097.chunk.css",
+    "main.js": "/static/js/main.c9522696.chunk.js",
+    "main.js.map": "/static/js/main.c9522696.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.88906c69.js",
     "runtime-main.js.map": "/static/js/runtime-main.88906c69.js.map",
     "static/js/2.873529f8.chunk.js": "/static/js/2.873529f8.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.8c21aebc.chunk.js": "/static/js/3.8c21aebc.chunk.js",
     "static/js/3.8c21aebc.chunk.js.map": "/static/js/3.8c21aebc.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.2405e69d.chunk.css.map": "/static/css/main.2405e69d.chunk.css.map",
+    "static/css/main.50243097.chunk.css.map": "/static/css/main.50243097.chunk.css.map",
     "static/js/2.873529f8.chunk.js.LICENSE.txt": "/static/js/2.873529f8.chunk.js.LICENSE.txt",
     "static/media/BannerDiscord.1506e88d.png": "/static/media/BannerDiscord.1506e88d.png",
     "static/media/mit.0ba591ca.png": "/static/media/mit.0ba591ca.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.88906c69.js",
     "static/js/2.873529f8.chunk.js",
-    "static/css/main.2405e69d.chunk.css",
-    "static/js/main.3ab04f3c.chunk.js"
+    "static/css/main.50243097.chunk.css",
+    "static/js/main.c9522696.chunk.js"
   ]
 }
