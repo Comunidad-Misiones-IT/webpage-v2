@@ -1,4 +1,5 @@
 import Member from "./Member";
+import styles from "./Projects.module.css";
 export default function Project() {
     return (
         <section className="text-gray-800 body-font text-center p-6">
@@ -23,14 +24,16 @@ export default function Project() {
             </div>
 
             <div className="p-4 text-left">
-                <h6><b>¿Qué buscamos?</b></h6>
-                <ul>
-                    <li>-Proveer de una herramienta open source a la comunidad misionera.</li>
-                    <li>-Colaborar con las protectoras y rescatistas de animales.</li>
-                    <li>-Promover la adopción, cuidado y tenencia responsable de mascotas.</li>
-                    <li>-Facilitar los medios de difusión de búsquedas para redes sociales.</li>
-                    <li>-Impulsar el desarrollo de software local.</li>
-                </ul>
+                <div className={styles.card}>
+                    <h6><b>¿Qué buscamos?</b></h6>
+                    <ul>
+                        <li>🐾 Proveer de una herramienta open source a la comunidad misionera.</li>
+                        <li>🐾 Colaborar con las protectoras y rescatistas de animales.</li>
+                        <li>🐾 Promover la adopción, cuidado y tenencia responsable de mascotas.</li>
+                        <li>🐾 Facilitar los medios de difusión de búsquedas para redes sociales.</li>
+                        <li>🐾 Impulsar el desarrollo de software local.</li>
+                    </ul>
+                </div>
             </div>
 
             <div className="p-4 text-left">
