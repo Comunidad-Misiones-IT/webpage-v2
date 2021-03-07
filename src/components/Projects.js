@@ -66,12 +66,12 @@ export default function Project() {
                 </div>
 
                 <div className="rounded my-4 overflow-hidden">
-                <a href="https://mtwe5yl7z06.typeform.com/to/OB06lqpf">
+                <a target="_blank" href="https://mtwe5yl7z06.typeform.com/to/OB06lqpf">
                     <button className="w-full md:w-auto text-center rounded px-4 py-2 bg-mit m-1">
                         <b className="text-white">Postulá a una ONG</b>
                     </button>
                 </a>
-                <a href="https://mtwe5yl7z06.typeform.com/to/i0uiemlW">
+                <a target="_blank" href="https://mtwe5yl7z06.typeform.com/to/i0uiemlW">
                     <button className="w-full md:w-auto text-center rounded px-4 py-2 bg-mit mx-1">
                     <b className="text-white">🐾 Sumate a colaborar</b>
                     </button>
