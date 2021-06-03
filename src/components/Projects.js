@@ -1,7 +1,7 @@
 import Member from "./Member";
 export default function Project() {
     return (
-        <section className="text-gray-800 body-font text-center p-6">
+        <section className="text-gray-800 body-font text-center p-8">
             <div>
                <h1>Ayudá a una ONG</h1>
                 <h6 className="leading-relaxed">
@@ -34,34 +34,44 @@ export default function Project() {
             </div>
 
             <div className="p-4 text-left">
-                <h6><b>Mentores:</b></h6>
+                <h6><b>Leaders:</b></h6>
             </div>
-                <div className="text-gray-800 text-left px-6 flex flex-wrap">
-                    <Member 
-                        name="Ale Bogado" 
-                        role="Backend"
-                        avatar="https://pbs.twimg.com/profile_images/1292100480416571395/vze_Vhih_400x400.jpg"
-                        twitter="https://twitter.com/AleBogadoOk"
-                        insta="#"
-                        linkedin="https://www.linkedin.com/in/alebogadok/"
-                    />
-
+                <div className="text-gray-800 text-left px-2 flex flex-wrap">
                     <Member 
                         name="Gabito Martin" 
-                        role="Frontend y backend"
+                        role="Project Leader"
                         avatar="https://pbs.twimg.com/profile_images/1307415701964173315/0FaIQQhO_400x400.jpg"
                         twitter="https://twitter.com/Gabito_dev"
-                        insta="#"
+                        insta="https://www.instagram.com/gabito_dev/"
                         linkedin="https://www.linkedin.com/in/jonathan-martin-025890b5/"
                     />
 
                     <Member 
+                        name="Ale Bogado" 
+                        role="Backend Leader"
+                        avatar="https://pbs.twimg.com/profile_images/1292100480416571395/vze_Vhih_400x400.jpg"
+                        twitter="https://twitter.com/AleBogadoOk"
+                        insta="https://www.instagram.com/allexwentworthok/"
+                        linkedin="https://www.linkedin.com/in/alebogadok/"
+                    />
+                </div>
+                <div className="text-gray-800 text-left px-2 flex flex-wrap">
+                    <Member 
                         name="Nataya Flores" 
-                        role="UX/UI y Frontend"
-                        avatar="https://pbs.twimg.com/profile_images/1343650036236898305/jAwD3PNr_400x400.jpg"
+                        role="Frontend Leader"
+                        avatar="https://avatars.githubusercontent.com/u/59546935?v=4"
                         twitter="https://twitter.com/natayafs"
                         insta="https://www.instagram.com/natayafs/"
                         linkedin="https://www.linkedin.com/in/natayafs/"
+                    />
+
+                    <Member 
+                        name="Lucas Bracamonte" 
+                        role="UI UX Leader"
+                        avatar="https://pbs.twimg.com/profile_images/1315073302474485762/GKQLSJcZ_400x400.jpg"
+                        twitter="https://twitter.com/bracamon_lucas"
+                        insta="https://www.instagram.com/lucas_bracamonte_/"
+                        linkedin="https://www.linkedin.com/in/lucasbracamonte/"
                     />
                 </div>
 
