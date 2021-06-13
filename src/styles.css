@@ -1,49 +1,28 @@
 :root {
   --mit-purple: #76489a;
   --mit-purple-dark: #633786;
-  --grey-text: #1D1F23;
+  --grey-text: #1D1F23;  
+  --title-text: 'Inter', sans-serif;
+  --font-text: 'Open Sans', sans-serif;
 }
 
-*, h1, h2, h6 {
+* {
+  font-family: var(--font-text);
   color: var(--grey-text);
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-
 h1 {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 2.5rem;
+  font-size: 2em;
 }
 
-.subtitle {
-  font-size: 1.8rem;
-  color: var(--mit-purple-dark);
+h2 {
+  font-size: 1.5em;
 }
 
-.home-banner {
-  background-color: var(--grey-text);
-}
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.4rem;
-  font-weight: bold;
-  color: white;
-  letter-spacing: 7px;
-}
-
-h5 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem;
+h1, h2, h3 {
+  font-family: var(--title-text);
+  font-weight: bolder;
   color: var(--mit-purple);
-  letter-spacing: 1px;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
 
 .bg-mit {
@@ -54,12 +33,11 @@ code {
   color: var(--mit-purple);
 }
 
-.vertical-align {
+.center-align {
   position: relative;
-  top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 div .card-mit:nth-child(even) {
