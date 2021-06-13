@@ -4,18 +4,16 @@ import Bot from "../assets/bot.png";
 class Home extends Component {
   render() {
     return (
-      <section className="text-gray-800 body-font text-center">
-        <div className="flex flex-wrap w-full home-banner p-6">
-          <div className="w-full md:w-1/3 md:py-12">
-            <img className="h-64 w-full object-contain vertical-align" alt="Home banner" src={Bot} />
-          </div>
-          <div className="w-full md:w-2/3 text-center md:text-left md:py-24 md:pr-12">
-            <h3>Comunidad Misiones IT</h3>
-            <h5>Somos Misiones IT, una comunidad de desarrolladores y desarrolladoras de la provincia de Misiones (Argentina)</h5>
-          </div>
+      <section className="text-center">
+        <div className="container p-4 mx-auto">
+          <img className="center-align" alt="Mascota de la comunidad" height="10" src={Bot} />
+          <h1>Comunidad Misiones IT</h1>
+          <p>Somos una comunidad de desarrollo de software de la provincia de Misiones - Argentina,
+          <br/>realizamos diversas actividades junto a programadores, diseñadores, educadores y recruiters
+          <br/> para formentar el talento local.</p>
         </div>
         <div className="container px-5 py-12 mx-auto">
-        <h1>¿Qué hacemos?</h1>
+        <h2>¿Qué hacemos?</h2>
           <div className="flex items-center lg:w-3/5 mx-auto border-b pt-6 pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
             <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
             <img src="https://img.icons8.com/cotton/64/000000/planner.png"/>
