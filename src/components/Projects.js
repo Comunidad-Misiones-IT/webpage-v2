@@ -1,4 +1,5 @@
 import Member from "./Member";
+import styles from "./Projects.module.css";
 export default function Project() {
     return (
         <section className="text-gray-800 body-font text-center p-8">
@@ -23,14 +24,16 @@ export default function Project() {
             </div>
 
             <div className="p-4 text-left">
-                <h6><b>¿Qué buscamos?</b></h6>
-                <ul>
-                    <li>-Proveer de una herramienta open source a la comunidad misionera.</li>
-                    <li>-Colaborar con las protectoras y rescatistas de animales.</li>
-                    <li>-Promover la adopción, cuidado y tenencia responsable de mascotas.</li>
-                    <li>-Facilitar los medios de difusión de búsquedas para redes sociales.</li>
-                    <li>-Impulsar el desarrollo de software local.</li>
-                </ul>
+                <div className={styles.card}>
+                    <h6><b>¿Qué buscamos?</b></h6>
+                    <ul>
+                        <li>🐾 Proveer de una herramienta open source a la comunidad misionera.</li>
+                        <li>🐾 Colaborar con las protectoras y rescatistas de animales.</li>
+                        <li>🐾 Promover la adopción, cuidado y tenencia responsable de mascotas.</li>
+                        <li>🐾 Facilitar los medios de difusión de búsquedas para redes sociales.</li>
+                        <li>🐾 Impulsar el desarrollo de software local.</li>
+                    </ul>
+                </div>
             </div>
 
             <div className="p-4 text-left">
@@ -76,12 +79,12 @@ export default function Project() {
                 </div>
 
                 <div className="rounded my-4 overflow-hidden">
-                <a href="https://mtwe5yl7z06.typeform.com/to/OB06lqpf">
+                <a target="_blank" href="https://mtwe5yl7z06.typeform.com/to/OB06lqpf">
                     <button className="w-full md:w-auto text-center rounded px-4 py-2 bg-mit m-1">
                         <b className="text-white">Postulá a una ONG</b>
                     </button>
                 </a>
-                <a href="https://mtwe5yl7z06.typeform.com/to/i0uiemlW">
+                <a target="_blank" href="https://mtwe5yl7z06.typeform.com/to/i0uiemlW">
                     <button className="w-full md:w-auto text-center rounded px-4 py-2 bg-mit mx-1">
                     <b className="text-white">🐾 Sumate a colaborar</b>
                     </button>

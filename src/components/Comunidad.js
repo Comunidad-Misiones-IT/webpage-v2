@@ -20,24 +20,24 @@ class Comunidad extends Component {
           </a>
           </div>
 
-          <div class="lg:w-1/4 w-1/2 p-4">
-          <a href="https://www.instagram.com/comunidadmit/">
+          <div  class="lg:w-1/4 w-1/2 p-4">
+          <a target="_blank" href="https://www.instagram.com/comunidadmit/">
             <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
             <img src="https://img.icons8.com/color/96/000000/instagram.png"/>
             </div>
             </a>
           </div>
 
-          <div class="lg:w-1/4 w-1/2 p-4">
-          <a href="https://www.linkedin.com/company/comunidad-mit">
+          <div  class="lg:w-1/4 w-1/2 p-4">
+          <a target="_blank" href="https://www.linkedin.com/company/comunidad-mit">
             <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
             <img src="https://img.icons8.com/color/96/000000/linkedin-2--v1.png"/>
             </div>
             </a>
           </div>
 
-          <div class="lg:w-1/4 w-1/2 p-4">
-          <a href="https://github.com/Comunidad-Misiones-IT">
+          <div  class="lg:w-1/4 w-1/2 p-4">
+          <a target="_blank" href="https://github.com/Comunidad-Misiones-IT">
             <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
             <img src="https://img.icons8.com/color/96/000000/github-2.png"/>
             </div>
@@ -45,25 +45,25 @@ class Comunidad extends Component {
           </div>
         </div>
 
-        <div class="flex flex-wrap -m-4">
-          <div class="lg:w-1/3 w-1/2 p-4">
-          <a href="https://www.twitch.tv/comunidadmit">
+        <div  class="flex flex-wrap -m-4">
+           <div class="lg:w-1/3 w-1/2 p-4">
+          <a target="_blank" href="https://www.twitch.tv/comunidadmit">
             <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
             <img src="https://img.icons8.com/color/96/000000/twitch.png"/>
             </div>
           </a>
           </div>
 
-          <div class="lg:w-1/3 w-1/2 p-4">
-          <a href="https://www.youtube.com/channel/UCLhrmyFEehkHytx89La2ENQ">
+          <div  class="lg:w-1/3 w-1/2 p-4">
+          <a target="_blank" href="https://www.youtube.com/channel/UCLhrmyFEehkHytx89La2ENQ">
             <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
             <img src="https://img.icons8.com/color/96/000000/youtube.png"/>
             </div>
             </a>
           </div>
 
-          <div class="lg:w-1/3 w-1/2 p-4">
-          <a href="https://open.spotify.com/user/5bgl2oo5nvp4is4ihv6u4umet">
+          <div  class="lg:w-1/3 w-1/2 p-4">
+          <a target="_blank" href="https://open.spotify.com/user/5bgl2oo5nvp4is4ihv6u4umet">
             <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
             <img src="https://img.icons8.com/color/96/000000/spotify.png"/>
             </div>
