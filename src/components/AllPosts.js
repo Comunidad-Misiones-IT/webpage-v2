@@ -24,7 +24,7 @@ export default function AllPosts() {
   }, []);
   return (
         <div className="body-font text-center p-6">
-          <h1>Eventos próximos</h1>
+          <h1>Eventos proximos</h1>
             <h6 className="leading-relaxed">
               Enterate de lo que se viene y reviví los eventos pasados.
             </h6>

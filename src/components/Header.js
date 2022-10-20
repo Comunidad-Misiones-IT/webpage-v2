@@ -41,10 +41,10 @@ export default function Header() {
               Comunidad
             </Link>
             <Link
-              to="/voluntariado"
+              to="/mitup"
               className="w-full md:w-auto text-center px-4 py-2 text-white "
             >
-              Ayudá a una ONG
+              #MITup2022
             </Link>
             </nav>
               <Link
