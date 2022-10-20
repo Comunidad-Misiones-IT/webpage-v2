@@ -1,9 +1,23 @@
 :root {
-  --mit-purple: #76489a;
-  --mit-purple-dark: #633786;
+  --mit-purple-dark: #423565;
+  --mit-purple: #423565;
   --grey-text: #1D1F23;  
-  --title-text: 'Inter', sans-serif;
-  --font-text: 'Open Sans', sans-serif;
+  --title-text: 'Oligopoly', sans-serif;
+  --font-text: 'Config', sans-serif;
+}
+
+@font-face {
+  font-family: 'Oligopoly';
+  src: url('./assets/fonts/Oligopoly-OTF/Oligopoly\ Regular.otf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Config';
+  src: url('./assets/fonts/config-rounded/Config\ Rounded\ Regular.otf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
 }
 
 * {
@@ -31,6 +45,10 @@ h1, h2, h3 {
 
 .text-mit {
   color: var(--mit-purple);
+}
+
+.text-mit-dark {
+  color: var(--mit-purple-dark);
 }
 
 .center-align {

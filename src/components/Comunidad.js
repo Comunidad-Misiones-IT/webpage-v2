@@ -9,67 +9,50 @@ class Comunidad extends Component {
           Siguenos en las redes sociales, hagamos comunidad...
         </h6>
 
-        <iframe className="center-align" src="https://discord.com/widget?id=742101163008327761&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>       
-        
-        <div class="flex flex-wrap p-4">
-          <div class="lg:w-1/4 w-1/2 p-4">
+        <div className="flex flex-wrap justify-center p-4">
           <a href="https://twitter.com/ComunidadMIT">
-            <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
-            <img src="https://img.icons8.com/color/96/000000/twitter--v1.png"/>
+            <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0" style={{height:'90px', width:'90px'}}>
+              <img src="https://img.icons8.com/color/96/000000/twitter--v1.png" style={{height:'50px'}} />
             </div>
           </a>
-          </div>
 
-          <div  class="lg:w-1/4 w-1/2 p-4">
           <a target="_blank" href="https://www.instagram.com/comunidadmit/">
-            <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
-            <img src="https://img.icons8.com/color/96/000000/instagram.png"/>
-            </div>
-            </a>
-          </div>
-
-          <div  class="lg:w-1/4 w-1/2 p-4">
-          <a target="_blank" href="https://www.linkedin.com/company/comunidad-mit">
-            <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
-            <img src="https://img.icons8.com/color/96/000000/linkedin-2--v1.png"/>
-            </div>
-            </a>
-          </div>
-
-          <div  class="lg:w-1/4 w-1/2 p-4">
-          <a target="_blank" href="https://github.com/Comunidad-Misiones-IT">
-            <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
-            <img src="https://img.icons8.com/color/96/000000/github-2.png"/>
-            </div>
-            </a>
-          </div>
-        </div>
-
-        <div  class="flex flex-wrap -m-4">
-           <div class="lg:w-1/3 w-1/2 p-4">
-          <a target="_blank" href="https://www.twitch.tv/comunidadmit">
-            <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
-            <img src="https://img.icons8.com/color/96/000000/twitch.png"/>
+            <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0" style={{height:'90px', width:'90px'}}>
+              <img src="https://img.icons8.com/color/96/000000/instagram.png" style={{height:'50px'}} />
             </div>
           </a>
-          </div>
 
-          <div  class="lg:w-1/3 w-1/2 p-4">
+          <a target="_blank" href="https://www.linkedin.com/company/comunidad-mit">
+            <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0" style={{height:'90px', width:'90px'}}>
+              <img src="https://img.icons8.com/color/96/000000/linkedin-2--v1.png" style={{height:'50px'}} />
+            </div>
+          </a>
+
+          <a target="_blank" href="https://github.com/Comunidad-Misiones-IT">
+            <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0" style={{height:'90px', width:'90px'}}>
+              <img src="https://img.icons8.com/color/96/000000/github-2.png" style={{height:'50px'}} />
+            </div>
+          </a>
+
+          <a target="_blank" href="https://www.twitch.tv/comunidadmit">
+            <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0" style={{height:'90px', width:'90px'}}>
+              <img src="https://img.icons8.com/color/96/000000/twitch.png" style={{height:'50px'}} />
+            </div>
+          </a>
           <a target="_blank" href="https://www.youtube.com/channel/UCLhrmyFEehkHytx89La2ENQ">
-            <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
-            <img src="https://img.icons8.com/color/96/000000/youtube.png"/>
+            <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0" style={{height:'90px', width:'90px'}}>
+              <img src="https://img.icons8.com/color/96/000000/youtube.png" style={{height:'50px'}} />
             </div>
-            </a>
-          </div>
+          </a>
 
-          <div  class="lg:w-1/3 w-1/2 p-4">
           <a target="_blank" href="https://open.spotify.com/user/5bgl2oo5nvp4is4ihv6u4umet">
-            <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
-            <img src="https://img.icons8.com/color/96/000000/spotify.png"/>
+            <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0" style={{height:'90px', width:'90px'}}>
+              <img src="https://img.icons8.com/color/96/000000/spotify.png" style={{height:'50px'}} />
             </div>
-            </a>
-          </div>
+          </a>
         </div>
+
+        <iframe className="center-align" src="https://discord.com/widget?id=742101163008327761&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
       </section>
     );

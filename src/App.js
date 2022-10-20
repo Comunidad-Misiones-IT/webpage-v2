@@ -19,7 +19,7 @@ function App() {
         <Route path="/eventos/:slug" component={OnePost} />
         <Route path="/nosotros" exact component={About} />
         <Route path="/live" exact component={Vivo} />
-        <Route path="/voluntariado" exact component={Project} />
+        <Route path="/mitup" exact component={Project} />
         <Route path="/comunidad" exact component={Comunidad} />
       </Switch>
       <Footer />

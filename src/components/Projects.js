@@ -4,12 +4,12 @@ export default function Project() {
     return (
         <section className="text-gray-800 body-font text-center p-8">
             <div>
-               <h1>Ayudá a una ONG</h1>
-                <h6 className="leading-relaxed">
+               <h1>MITup 2022 - Proximamente</h1>
+                <h6 className="leading-relaxed" hidden>
                     Sumate a colaborar en un proyecto open source y ayudá a una organización sin fines de lucro.
                 </h6>
             </div>
-
+            <div hidden>
             <hr className="my-6"></hr>
             
             <div>
@@ -89,6 +89,7 @@ export default function Project() {
                     <b className="text-white">🐾 Sumate a colaborar</b>
                     </button>
                 </a>
+            </div>
             </div>
         </section>
     );
