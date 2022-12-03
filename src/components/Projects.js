@@ -4,6 +4,7 @@ import Livick from "../assets/mitup/sponsors/livick.jfif"
 import Edutekno from "../assets/mitup/sponsors/edutekno.jpg"
 import Nucba from "../assets/mitup/sponsors/nucba.png"
 import AYF from "../assets/mitup/sponsors/ayf.png"
+import ClaseDig from "../assets/mitup/sponsors/clasedig.png"
 import SZ from "../assets/mitup/sponsors/SZ.png"
 import Frontendcafe from "../assets/mitup/sponsors/frontendcafe.svg"
 import LDS from "../assets/mitup/sponsors/LDS.svg"
@@ -68,7 +69,7 @@ export default function Project() {
                         </div>
                         <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                             <h2 className="title-font mb-2">
-                                9:00hs | Carlos Cristian Priora
+                                9:30hs | Carlos Cristian Priora
                             </h2>
                             <p className="leading-relaxed">
                                 Tecnologías disruptivas: la cuarta revolución industrial ya está aquí.
@@ -81,7 +82,7 @@ export default function Project() {
                     <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
                         <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                             <h2 className="title-font mb-2">
-                                9:30hs | Alice Raquel Rambo
+                                10:00hs | Alice Raquel Rambo
                             </h2>
                             <p className="leading-relaxed">
                                 Tratamiento de residuos electrónicos.
@@ -118,7 +119,7 @@ export default function Project() {
                             <p className="leading-relaxed">
                                 ¡Qué genial que es Web3! ¿No?
                                 <hr className="my-6"></hr>
-                                👾 SORTEO: un mouse inalámbrico de La Casa Digital.
+                                👾 SORTEO: un mouse inalámbrico de La Clase Digital + Una remera de MIT.
                             </p>
                         </div>
                         <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
@@ -150,7 +151,7 @@ export default function Project() {
                             <p className="leading-relaxed">
                                 Data: ¿Qué es y cómo iniciarse en la industria?
                                 <hr className="my-6"></hr>
-                                👾 SORTEO: Webcam full HD de La Casa Digital.
+                                👾 SORTEO: Webcam full HD de La Clase Digital + Una remera de MIT.
                             </p>
                         </div>
                         <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
@@ -196,6 +197,7 @@ export default function Project() {
                     <img src={Livick} className="m-3" width='90' />
                     <img src={Edutekno} className="m-3" width='90' />
                     <img src={Nucba} className="m-3" width='190' />
+                    <img src={ClaseDig} className="m-3" width='280' />
                     <img src={SZ} className="m-3" width='130' />
                     <img src={AYF} className="m-3" width='90' />
                 </div>
@@ -207,8 +209,8 @@ export default function Project() {
                     <img src={RSG} className="m-3" width='90' />
                     <img src={Codear} className="m-3" width='190' />
                     <img src={Frontendcafe} className="m-3" width='190' />
-                    <img src={LMDP} className="m-3" width='90' />
-                    <img src={SA} className="m-3" width='90' />
+                    <img src={LMDP} className="m-3" width='100' />
+                    <img src={SA} className="m-3" width='100' />
                     <img src={Devteam} className="m-3" width='90' />
                 </div>
             </div>
