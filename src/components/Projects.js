@@ -180,7 +180,7 @@ export default function Project() {
                                 16:00hs | AFTER MITUP 2022
                             </h2>
                             <p className="leading-relaxed">
-                                Veremos el partido de Argentina - Australia del Mundial de fútbol masculino Qatar 2022 en pantalla grande. Presencial.
+                                Veremos el partido de Argentina del Mundial de fútbol masculino Qatar 2022 en pantalla grande. Presencial.
                             </p>
                         </div>
                         <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
