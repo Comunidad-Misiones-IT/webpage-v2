@@ -9617,7 +9617,7 @@
     "tiny-invariant" "^1.0.2"
     "tiny-warning" "^1.0.0"
 
-"react-scripts@4.0.0":
+"react-scripts@^4.0.0":
   "integrity" "sha512-icJ/ctwV5XwITUOupBP9TUVGdWOqqZ0H08tbJ1kVC5VpNWYzEZ3e/x8axhV15ZXRsixLo27snwQE7B6Zd9J2Tg=="
   "resolved" "https://registry.npmjs.org/react-scripts/-/react-scripts-4.0.0.tgz"
   "version" "4.0.0"
