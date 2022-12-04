@@ -1,7 +1,7 @@
 import styles from "./Projects.module.css"
 import Boton from "../assets/mitup/button.svg"
 import Livick from "../assets/mitup/sponsors/livick.jfif"
-import Edutekno from "../assets/mitup/sponsors/edutekno.jpg"
+import Edutekno from "../assets/mitup/sponsors/edutekno.png"
 import Nucba from "../assets/mitup/sponsors/nucba.png"
 import AYF from "../assets/mitup/sponsors/ayf.png"
 import ClaseDig from "../assets/mitup/sponsors/clasedig.png"
@@ -74,7 +74,7 @@ export default function Project() {
                             <p className="leading-relaxed">
                                 Tecnologías disruptivas: la cuarta revolución industrial ya está aquí.
                                 <hr className="my-6"></hr>
-                                👾 SORTEO: 2 ebooks + 4 cursos tecnología educativa para docentes de <a href="https://www.instagram.com/profetekno/">EduTekno</a>
+                                👾 SORTEO: 2 ebooks + 4 cursos tecnología educativa para docentes de <a href="https://www.instagram.com/profetekno/">EduTekno</a>.
                             </p>
                         </div>
                     </div>
@@ -106,7 +106,7 @@ export default function Project() {
                             <p className="leading-relaxed">
                                 Hablemos un poco sobre brechas digitales.
                                 <hr className="my-6"></hr>
-                                👾 SORTEO: 1 hora de living + 1 consumisión gratuita en <a href="https://www.instagram.com/safezoneok/">@safezoneok</a>
+                                👾 SORTEO: 1 hora de living + 1 consumición gratuita en <a href="https://www.instagram.com/safezoneok/">@safezoneok</a>
                             </p>
                         </div>
                     </div>
@@ -133,12 +133,12 @@ export default function Project() {
                         </div>
                         <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                             <h2 className="title-font mb-2">
-                                14:00hs | David Quintana
+                                13:30hs | David Quintana
                             </h2>
                             <p className="leading-relaxed">
                                 Web para emprendedores.
                                 <hr className="my-6"></hr>
-                                👾 SORTEO: 1 hora de living + 1 consumisión gratuita en <a href="https://www.instagram.com/safezoneok/">@safezoneok</a>
+                                👾 SORTEO: 1 hora de living + 1 consumición gratuita en <a href="https://www.instagram.com/safezoneok/">@safezoneok</a>
                             </p>
                         </div>
                     </div>
@@ -146,7 +146,7 @@ export default function Project() {
                     <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
                         <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                             <h2 className="title-font mb-2">
-                                14:30hs | Carlos David Jurado
+                                14:00hs | Carlos David Jurado
                             </h2>
                             <p className="leading-relaxed">
                                 Data: ¿Qué es y cómo iniciarse en la industria?

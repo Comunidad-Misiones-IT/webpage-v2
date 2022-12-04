@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5b5a5608.chunk.css",
-    "main.js": "/static/js/main.cdc8f536.chunk.js",
-    "main.js.map": "/static/js/main.cdc8f536.chunk.js.map",
+    "main.js": "/static/js/main.d58fc326.chunk.js",
+    "main.js.map": "/static/js/main.d58fc326.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c0f12bfd.js",
     "runtime-main.js.map": "/static/js/runtime-main.c0f12bfd.js.map",
     "static/js/2.ca88596d.chunk.js": "/static/js/2.ca88596d.chunk.js",
@@ -26,6 +26,7 @@
     "static/media/carlos.b55b6fd1.png": "/static/media/carlos.b55b6fd1.png",
     "static/media/clasedig.9f39cc73.png": "/static/media/clasedig.9f39cc73.png",
     "static/media/david.4d6d1c3f.jpg": "/static/media/david.4d6d1c3f.jpg",
+    "static/media/edutekno.fb7482f8.png": "/static/media/edutekno.fb7482f8.png",
     "static/media/frontendcafe.cd26c7f8.svg": "/static/media/frontendcafe.cd26c7f8.svg",
     "static/media/joey.6ef51e94.jpg": "/static/media/joey.6ef51e94.jpg",
     "static/media/livick.0b33ebda.jfif": "/static/media/livick.0b33ebda.jfif",
@@ -43,6 +44,6 @@
     "static/js/runtime-main.c0f12bfd.js",
     "static/js/2.ca88596d.chunk.js",
     "static/css/main.5b5a5608.chunk.css",
-    "static/js/main.cdc8f536.chunk.js"
+    "static/js/main.d58fc326.chunk.js"
   ]
 }
