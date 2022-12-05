@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5b5a5608.chunk.css",
-    "main.js": "/static/js/main.d58fc326.chunk.js",
-    "main.js.map": "/static/js/main.d58fc326.chunk.js.map",
+    "main.js": "/static/js/main.fd0edfc8.chunk.js",
+    "main.js.map": "/static/js/main.fd0edfc8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c0f12bfd.js",
     "runtime-main.js.map": "/static/js/runtime-main.c0f12bfd.js.map",
     "static/js/2.ca88596d.chunk.js": "/static/js/2.ca88596d.chunk.js",
@@ -38,12 +38,13 @@
     "static/media/profetekno.d0bd6a5d.jpg": "/static/media/profetekno.d0bd6a5d.jpg",
     "static/media/rsg.5d92573b.png": "/static/media/rsg.5d92573b.png",
     "static/media/sysarmy.b4dbce82.png": "/static/media/sysarmy.b4dbce82.png",
+    "static/media/technolatinas.928c1e52.png": "/static/media/technolatinas.928c1e52.png",
     "static/media/trenes.39404d5c.png": "/static/media/trenes.39404d5c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c0f12bfd.js",
     "static/js/2.ca88596d.chunk.js",
     "static/css/main.5b5a5608.chunk.css",
-    "static/js/main.d58fc326.chunk.js"
+    "static/js/main.fd0edfc8.chunk.js"
   ]
 }
