@@ -13,6 +13,7 @@ import RSG from "../assets/mitup/sponsors/rsg.png"
 import SA from "../assets/mitup/sponsors/sysarmy.png"
 import Devteam from "../assets/mitup/sponsors/devteam.png"
 import Codear from "../assets/mitup/sponsors/CODEAR.svg"
+import Technolatinas from "../assets/mitup/sponsors/technolatinas.png"
 import Trenes from "../assets/mitup/trenes.png"
 import Mapa from "../assets/mitup/mapa.png"
 
@@ -193,7 +194,7 @@ export default function Project() {
 
                 <hr className="my-6"></hr>
                 <h1 className="subtitle pt-6">Sponsors</h1>
-                <div className="flex flex-wrap justify-center py-6">
+                <div className="flex flex-wrap justify-center py-6 mx-6 px-6">
                     <img src={Livick} className="m-3" width='90' />
                     <img src={Edutekno} className="m-3" width='90' />
                     <img src={Nucba} className="m-3" width='190' />
@@ -204,11 +205,12 @@ export default function Project() {
                 <hr className="my-6"></hr>
 
                 <h1 className="subtitle pt-6">Comunidades amigas</h1>
-                <div className="flex flex-wrap justify-center py-6">
+                <div className="flex flex-wrap justify-center py-6 mx-6 px-6">
                     <img src={LDS} className="m-3" width='90' />
                     <img src={RSG} className="m-3" width='90' />
                     <img src={Codear} className="m-3" width='190' />
                     <img src={Frontendcafe} className="m-3" width='190' />
+                    <img src={Technolatinas} className="m-3" width='210' />
                     <img src={LMDP} className="m-3" width='100' />
                     <img src={SA} className="m-3" width='100' />
                     <img src={Devteam} className="m-3" width='90' />
