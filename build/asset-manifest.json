@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5b5a5608.chunk.css",
-    "main.js": "/static/js/main.fd0edfc8.chunk.js",
-    "main.js.map": "/static/js/main.fd0edfc8.chunk.js.map",
+    "main.js": "/static/js/main.4c429084.chunk.js",
+    "main.js.map": "/static/js/main.4c429084.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c0f12bfd.js",
     "runtime-main.js.map": "/static/js/runtime-main.c0f12bfd.js.map",
     "static/js/2.ca88596d.chunk.js": "/static/js/2.ca88596d.chunk.js",
@@ -16,7 +16,7 @@
     "static/media/CODEAR.244448d7.svg": "/static/media/CODEAR.244448d7.svg",
     "static/media/styles.css": "/static/media/Oligopoly Regular.3945239a.otf",
     "static/media/LDS.561c2dca.svg": "/static/media/LDS.561c2dca.svg",
-    "static/media/LMDP.2b0ffab0.jpg": "/static/media/LMDP.2b0ffab0.jpg",
+    "static/media/LMDP.543aa4e5.png": "/static/media/LMDP.543aa4e5.png",
     "static/media/SZ.3d12ed7e.png": "/static/media/SZ.3d12ed7e.png",
     "static/media/alice.b158fae5.jpg": "/static/media/alice.b158fae5.jpg",
     "static/media/ayf.af8b834f.png": "/static/media/ayf.af8b834f.png",
@@ -24,12 +24,13 @@
     "static/media/botarg.0ba280ed.png": "/static/media/botarg.0ba280ed.png",
     "static/media/button.5be6f8fb.svg": "/static/media/button.5be6f8fb.svg",
     "static/media/carlos.b55b6fd1.png": "/static/media/carlos.b55b6fd1.png",
-    "static/media/clasedig.9f39cc73.png": "/static/media/clasedig.9f39cc73.png",
+    "static/media/clasedig.5006df0d.png": "/static/media/clasedig.5006df0d.png",
     "static/media/david.4d6d1c3f.jpg": "/static/media/david.4d6d1c3f.jpg",
+    "static/media/devteam.a1c24306.png": "/static/media/devteam.a1c24306.png",
     "static/media/edutekno.fb7482f8.png": "/static/media/edutekno.fb7482f8.png",
     "static/media/frontendcafe.cd26c7f8.svg": "/static/media/frontendcafe.cd26c7f8.svg",
     "static/media/joey.6ef51e94.jpg": "/static/media/joey.6ef51e94.jpg",
-    "static/media/livick.0b33ebda.jfif": "/static/media/livick.0b33ebda.jfif",
+    "static/media/livick.04161fe0.png": "/static/media/livick.04161fe0.png",
     "static/media/mapa.3a91904a.png": "/static/media/mapa.3a91904a.png",
     "static/media/mit.9472fc9f.png": "/static/media/mit.9472fc9f.png",
     "static/media/mit2.b50da691.png": "/static/media/mit2.b50da691.png",
@@ -38,13 +39,13 @@
     "static/media/profetekno.d0bd6a5d.jpg": "/static/media/profetekno.d0bd6a5d.jpg",
     "static/media/rsg.5d92573b.png": "/static/media/rsg.5d92573b.png",
     "static/media/sysarmy.b4dbce82.png": "/static/media/sysarmy.b4dbce82.png",
-    "static/media/technolatinas.928c1e52.png": "/static/media/technolatinas.928c1e52.png",
+    "static/media/technolatinas.db22e02d.png": "/static/media/technolatinas.db22e02d.png",
     "static/media/trenes.39404d5c.png": "/static/media/trenes.39404d5c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c0f12bfd.js",
     "static/js/2.ca88596d.chunk.js",
     "static/css/main.5b5a5608.chunk.css",
-    "static/js/main.fd0edfc8.chunk.js"
+    "static/js/main.4c429084.chunk.js"
   ]
 }

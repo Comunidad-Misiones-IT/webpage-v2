@@ -1,6 +1,6 @@
 import styles from "./Projects.module.css"
 import Boton from "../assets/mitup/button.svg"
-import Livick from "../assets/mitup/sponsors/livick.jfif"
+import Livick from "../assets/mitup/sponsors/livick.png"
 import Edutekno from "../assets/mitup/sponsors/edutekno.png"
 import Nucba from "../assets/mitup/sponsors/nucba.png"
 import AYF from "../assets/mitup/sponsors/ayf.png"
@@ -8,7 +8,7 @@ import ClaseDig from "../assets/mitup/sponsors/clasedig.png"
 import SZ from "../assets/mitup/sponsors/SZ.png"
 import Frontendcafe from "../assets/mitup/sponsors/frontendcafe.svg"
 import LDS from "../assets/mitup/sponsors/LDS.svg"
-import LMDP from "../assets/mitup/sponsors/LMDP.jpg"
+import LMDP from "../assets/mitup/sponsors/LMDP.png"
 import RSG from "../assets/mitup/sponsors/rsg.png"
 import SA from "../assets/mitup/sponsors/sysarmy.png"
 import Devteam from "../assets/mitup/sponsors/devteam.png"
@@ -210,10 +210,10 @@ export default function Project() {
                     <img src={RSG} className="m-3" width='90' />
                     <img src={Codear} className="m-3" width='190' />
                     <img src={Frontendcafe} className="m-3" width='190' />
-                    <img src={Technolatinas} className="m-3" width='210' />
+                    <img src={Technolatinas} className="m-3" width='200' />
                     <img src={LMDP} className="m-3" width='100' />
                     <img src={SA} className="m-3" width='100' />
-                    <img src={Devteam} className="m-3" width='90' />
+                    <img src={Devteam} className="m-3" width='100' />
                 </div>
             </div>
         </section>
